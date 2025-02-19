@@ -7,7 +7,7 @@ import { Input } from './components/ui/input';
 import { Modal } from './components/common/Modal';
 import { LoadingSpinner } from './components/common/LoadingSpinner';
 import { staffService } from './api-service';
-import StaffForm from './components/staff/StaffForm';
+import StaffForm from './components/staff/staffForm';
 
 export default function Staff() {
   const [staff, setStaff] = useState([]);
